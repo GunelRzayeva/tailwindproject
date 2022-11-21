@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .blue{
+        @apply text-sky-600 text-xs mt-10;
+    }
+
+    .fix{
+        @apply text-sky-800 font-bold;
+    }
+    .xett{
+       @apply w-1 h-20 text-red-600;
+    }
+}
